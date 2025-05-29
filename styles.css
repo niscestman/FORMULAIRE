@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(im_form.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+form{
+    background-color: transparent;
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    backdrop-filter: blur(20px);
+}
+section h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.input-box{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.input-box input{    
+    width: 100%;
+    outline: none;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding-right: 40px;
+    color: white;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.input-box i{
+   position: absolute;
+   transform: translateY(-50px);
+   right: 20px;
+   top: 75px;
+   color: wheat;
+   font-size: 20px;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+.check a,.create-account a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.check a:hover,.create-account a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    outline: none;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid grey;
+}
+.create-account{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
